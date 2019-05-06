@@ -1,10 +1,8 @@
-def my_each do |word|
-  puts "word"
-   i = 0
-  while i < array.size
-block_given?
-yield(array[i])
-i += 1
+def my_each(collection)
+  i = 0
+  while i < collection.length
+    yield(collection[i])
+    i = i + 1
   end
-array
+  collection
 end
