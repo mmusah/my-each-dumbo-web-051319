@@ -1,4 +1,5 @@
-def my_each # put argument(s) here
+def my_each do |word|
+  puts "word"
    i = 0
   while i < array.size
 block_given?
